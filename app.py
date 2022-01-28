@@ -17,7 +17,7 @@ def about():
     return render_template("pages/about.html")
 
 
-# Classes page 
+# Classes page
 @app.route("/classes")
 def classes():
     """
@@ -31,7 +31,7 @@ def classes():
 def gallery():
     """Renders Gallery page"""
     return render_template("pages/gallery.html")
-    
+
 
 # Contact Us page
 @app.route("/contact", methods=["GET", "POST"])

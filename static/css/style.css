@@ -1,0 +1,474 @@
+/*Import font style*/
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+/* Styling HTML and Body elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 99vh;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #020413;
+    z-index: 1;
+    font-family: 'Spartan', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3.contact-form-heading,
+h3.media-gallery-heading,
+h3.timetable-heading,
+h3.about-heading {
+    font-family: 'Architects Daughter', cursive;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 2rem;
+}
+
+/* Navbar styling */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #020413;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.navbar-nav li {
+    font-size: 1.5rem;;
+    letter-spacing: 0.3rem;
+    margin: 1rem;
+}
+
+a.nav-link {
+    color: #ffa90a;
+}
+
+a.nav-link:hover,
+a.email-icon:hover {
+    color: #FFFFFF;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+a.nav-link.about {
+    color: #FFFFFF;
+}
+
+a.nav-link.about:hover {
+    color: #ffa90a;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+a.email-icon {
+    font-size: 2.5rem;
+    color: #ffa90a;
+    cursor: pointer;
+}
+
+/*Styling About Page*/
+.about-card-one {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffa90a;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.about-card-two {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    background-clip: border-box;
+    border: 0.3rem solid #ffa90a;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin: 1rem;
+}
+
+.about-card-title {
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-bottom: 1rem; 
+}
+
+.about-card-text {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.8rem;
+    color: #020413;
+    margin: 2rem; 
+}
+
+
+
+
+/*Styling Classes content*/
+.card-one {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffa90a;
+    background-clip: border-box;
+    border: 0.3rem solid #FFFFFF;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+}
+
+.card-two {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    background-clip: border-box;
+    border: 0.3rem solid #ffa90a;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-title-one {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.additional-text-title {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+}
+
+.card-title-two {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: #ffa90a;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 2rem;
+    color:#020413;
+    margin-top: 2rem;
+}
+
+.additional-info {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ffa90a;
+    font-weight: bolder;
+    margin-top: 2rem;;
+}
+
+.far.fa-comment-dots {
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    margin: 0.5rem;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.far.fa-comment-dots:hover {
+    color: #ffa90a;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.divider-one {
+    background-color: #FFFFFF;
+    height: 0.3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.divider-two {
+    background-color:#ffa90a;
+    height: 0.3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.divider-three {
+    background-color: #FFFFFF;
+    height: 0.4rem;
+    margin-top: 2rem;
+}
+
+/*Styling Gallery*/
+.media-gallery {
+    width: 80%;
+    margin: 6.25rem auto 3.1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.6rem, 1fr));
+    grid-gap: 2rem;
+    border-radius: 0.5rem;
+    border: 0.4rem solid #ffa90a;
+    padding: 3rem;
+}
+
+.media-gallery img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.media-gallery img:hover {
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 0.5rem;
+    border: 0.3rem solid #ffa90a;
+    box-shadow: 0 1.5rem 1.2rem rgb(220, 212, 212);
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/*Styling Contact form*/
+form {
+    width: 80%;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: 0.4rem solid #ffa90a;
+}
+
+.row-flashes {
+    color: #FFFFFF;
+}
+
+.contact-form.card-panel {
+    line-height: 2;
+    background-color: #FFFFFF;
+    border: 0.5rem solid #ffa90a;
+    border-radius: 0.8rem;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #020413;
+    font-weight: bolder;
+}
+
+#name,
+#email,
+#message {
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.fas.fa-user-tie,
+.fas.fa-at,
+.fas.fa-pen-fancy {
+    color: #ffa90a;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.action-buttons {
+    text-align: center;
+}
+
+button.submit.btn {
+    border: 0.3rem solid #020413;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #ffa90a;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+a.cancel.btn {
+    border: 0.3rem solid #020413;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #948e83;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+button.submit.btn:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+a.cancel.btn:hover {
+    background-color: #ffa90a;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.far.fa-window-close.right {
+    margin-left: 0.5rem;
+}
+
+/*Styling Footer*/
+footer.page-footer {
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.social-media i {
+    font-size: 2rem;
+    color: #FFFFFF;
+    border: 0.2rem solid #948e83;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.fab:hover {
+    color:#ffa90a;
+    border: 0.2rem solid #ffa90a;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.fudog-text {
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+    font-size: 1.3rem;
+    color: #faf5f5ad;
+}
+
+.fudog-info {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    color: #faf5f5ad;
+}
+
+.fudog-info i {
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.design-text {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #faf5f5ad;
+    opacity: 0.3;
+}
+
+.fudog-phone a,
+.fudog-email a {
+    color: #ffa90a;
+}
+
+.far.fa-envelope {
+    margin-left: 2.5rem;
+}
+
+.fas.fa-arrow-up {
+    color: #020413;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.float-button {
+    position: fixed;
+	width: 4rem;
+	height: 4rem;
+	bottom: 3rem;
+	right: 1rem;
+	background-color: #ffa90a;
+	border-radius: 50px;
+    border: 0.2rem solid #020413;
+    margin-bottom: 3.3rem;
+    margin-right: 1rem;
+}
+
+.float-button:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
