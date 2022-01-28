@@ -109,7 +109,6 @@ a.email-icon {
     word-wrap: break-word;
     background-color: #FFFFFF;
     background-clip: border-box;
-    border: 0.3rem solid #ffa90a;
     border-radius: 0.5rem;
     margin-top: 2rem;
 }
@@ -129,6 +128,15 @@ a.email-icon {
     margin-bottom: 1rem; 
 }
 
+.other-card-title {
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ffa90a;
+    margin-bottom: 1rem; 
+}
+
 .about-card-text {
     text-align: center;
     font-family: 'Architects Daughter', cursive;
@@ -137,6 +145,13 @@ a.email-icon {
     margin: 2rem; 
 }
 
+.other-info {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ffa90a;
+    font-weight: bolder;
+    margin-top: 4rem;
+}
 
 
 
