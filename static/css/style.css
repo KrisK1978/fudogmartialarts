@@ -91,26 +91,24 @@ a.email-icon {
 /*Styling About Page*/
 .about-card-one {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     min-width: 0;
     word-wrap: break-word;
     background-color: #ffa90a;
     background-clip: border-box;
     border-radius: 0.5rem;
-    margin-top: 2rem;
+    margin: 1.5rem;
 }
 
 .about-card-two {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     min-width: 0;
     word-wrap: break-word;
     background-color: #FFFFFF;
     background-clip: border-box;
     border-radius: 0.5rem;
-    margin-top: 2rem;
+    margin: 1.5rem;
 }
 
 .card-body {
@@ -142,10 +140,18 @@ a.email-icon {
     font-family: 'Architects Daughter', cursive;
     font-size: 1.8rem;
     color: #020413;
-    margin: 2rem; 
+    margin: 1rem; 
 }
 
-.other-info {
+.other-card-text {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.8rem;
+    color: #020413;
+    margin: 1rem; 
+}
+
+.additionl--info {
     text-align: center;
     font-size: 1.8rem;
     color: #ffa90a;
@@ -153,7 +159,10 @@ a.email-icon {
     margin-top: 4rem;
 }
 
-
+.intro-img {
+    width: 100%;
+    height: auto;
+}
 
 /*Styling Classes content*/
 .card-one {
