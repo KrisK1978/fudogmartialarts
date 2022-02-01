@@ -89,6 +89,9 @@ a.email-icon {
 }
 
 /*Styling About Page*/
+.about-page-banner {
+    background-color: #ffa90a;
+}
 .about-card-one {
     position: relative;
     display: grid;
@@ -156,10 +159,14 @@ a.email-icon {
     font-size: 1.8rem;
     color: #ffa90a;
     font-weight: bolder;
-    margin-top: 4rem;
+    margin: 2rem;
+    border: 0.3rem solid #ffa90a;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 
-.intro-img {
+.intro-img,
+.hc-img {
     width: 100%;
     height: auto;
 }
