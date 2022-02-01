@@ -286,7 +286,8 @@ a.email-icon {
 }
 
 /*Styling Gallery*/
-.media-gallery {
+.image-gallery,
+.video-gallery {
     width: 80%;
     margin: 6.25rem auto 3.1rem;
     display: grid;
@@ -297,12 +298,16 @@ a.email-icon {
     padding: 3rem;
 }
 
-.media-gallery img {
+.image-gallery img {
+    width: 100%;
+}
+
+.video-gallery iframe {
     width: 100%;
     cursor: pointer;
 }
 
-.media-gallery img:hover {
+.image-gallery img:hover {
     transform: scale(0.8) rotate(-15deg);
     border-radius: 0.5rem;
     border: 0.3rem solid #ffa90a;

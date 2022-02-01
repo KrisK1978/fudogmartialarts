@@ -3,7 +3,7 @@
     <!--Media Gallery-->
     
         <h3 class="media-gallery-heading">Fu Dog in action...</h3>
-            <div class="media-gallery container">
+            <div class="image-gallery container">
                 <!--Image 1-->
                 <a data-fancybox="gallery" data-src="{{ url_for('static', filename='media/images/fudog-1.jpg') }}"
                 data-caption="Fu Dog">
@@ -173,5 +173,35 @@
                 data-caption="Fu Dog">
                 <img src="{{ url_for('static', filename='media/images/fudog-42.jpg') }}"/></a>
             </div>
-           
+            <div class="video-gallery container">
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video1.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video13.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video3.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video4.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video13.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video6.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video7.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video8.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video9.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video10.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video2.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video5.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video11.mp4') }}" 
+                    frameborder="0"></iframe>
+                <iframe src="{{ url_for('static', filename='media/video/fudog-video12.mp4') }}" 
+                    frameborder="0"></iframe>
+            </div>
+            
 {% endblock %}
