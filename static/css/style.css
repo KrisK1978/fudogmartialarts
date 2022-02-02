@@ -24,16 +24,18 @@ body {
     font-weight: 700;
 }
 
-h3.contact-form-heading,
-h3.media-gallery-heading,
+h3.about-heading,
 h3.timetable-heading,
-h3.about-heading {
+h3.fight-team-heading,
+h3.media-gallery-heading,
+h3.contact-form-heading {
     font-family: 'Architects Daughter', cursive;
     color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 /* Navbar styling */
@@ -285,7 +287,9 @@ a.email-icon {
     margin-top: 2rem;
 }
 
-/*Styling Gallery*/
+/*Styling Fight Team content*/
+
+/*Styling Gallery content*/
 .image-gallery,
 .video-gallery {
     width: 80%;

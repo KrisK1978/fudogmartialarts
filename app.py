@@ -21,9 +21,18 @@ def about():
 @app.route("/classes")
 def classes():
     """
-    Renders timetable page 
+    Renders Timetable page
     """
     return render_template("pages/classes.html")
+
+
+# Classes page
+@app.route("/fight_team")
+def fight_team():
+    """
+    Renders Fight Team page 
+    """
+    return render_template("pages/fight_team.html")
 
 
 # Gallery page
