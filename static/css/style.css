@@ -288,6 +288,76 @@ a.email-icon {
 }
 
 /*Styling Fight Team content*/
+.fight-team.flip-card {
+    background-color: #ffa90a;
+    width: 30rem;
+    height: 52rem;
+    perspective: 1000px;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #FFFFFF;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .fight-team.flip-card-front, 
+  .fight-team.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .fight-team.flip-card-front {
+    background-color: #FFFFFF;
+    color: #020413;
+  }
+  
+  .fight-team.flip-card-back {
+    background-color: #FFFFFF;
+    color: #020413;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #ffa90a;
+    transform: rotateY(180deg);
+  }
+
+  .fight-team-member-name {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: #020413;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .fight-team-member-bio {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: #AE2012;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+.fight-team-member-detail {
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    color: #020413;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 
 /*Styling Gallery content*/
 .image-gallery,
@@ -566,3 +636,5 @@ footer.page-footer {
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
+
+
