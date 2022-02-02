@@ -298,13 +298,44 @@ a.email-icon {
     padding: 3rem;
 }
 
+h4.video-gallery-title {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2rem;
+    color: #ffa90a;
+    margin-top: 2rem;
+}
+
+h4.image-gallery-title {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-top: 2rem;
+}
+
 .image-gallery img {
     width: 100%;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #ffa90a;
 }
+
+.video-gallery {
+    width: 80%;
+    margin: 6.25rem auto 3.1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.6rem, 1fr));
+    grid-gap: 2rem;
+    border-radius: 0.5rem;
+    border: 0.4rem solid #FFFFFF;
+    padding: 3rem;
+}
+
 
 .video-gallery iframe {
     width: 100%;
-    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #FFFFFF;
 }
 
 .image-gallery img:hover {
