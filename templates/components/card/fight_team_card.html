@@ -3,34 +3,37 @@
     <!--Fight Team content-->
     <div class="fight-team container">
         <h3 class="fight-team-heading">Fu Dog Fight Team...</h3>
-        <div class="fight-team flip-card">
-            <div class="fight-team flip-card-inner">
-              <div class="fight-team flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="fight-team-card">
+              <div class="card-body">
+                <img class="intro-img" src="{{ url_for('static', filename='media/logo/fudog-baner.png')}}" 
+                alt="intro-img">
+                 <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div class="fight-team flip-card-back">
-                <p class="fight-team-member-name">Gregor Fell</p>
-                <div class="divider-two"></div>
-                  <p class="fight-team-member-bio">From:
-                    <span class="fight-team-member-detail">Dunfermline</span></p>
-                  <p class="fight-team-member-bio">Age:
-                    <span class="fight-team-member-detail">TBC</span></p>
-                  <p class="fight-team-member-bio">Height:
-                    <span class="fight-team-member-detail">TBC</span></p>
-                  <p class="fight-team-member-bio">Weight:
-                    <span class="fight-team-member-detail">TBC</span></p>
-                  <p class="fight-team-member-bio">Reach:
-                    <span class="fight-team-member-detail">TBC</span></p>
-                  <p class="fight-team-member-bio">Division:
-                    <span class="fight-team-member-detail">TBC</span></p>
-                  <p class="fight-team-member-bio">Style:
-                    <span class="fight-team-member-detail">TBC</span></p>
-                  <p class="fight-team-member-bio">Team:
-                    <span class="fight-team-member-detail">Fu Dog Martial Arts</span></p>
-                  <p class="fight-team-member-bio">Trainer:
-                    <span class="fight-team-member-detail">Iain Feenan</span></p>
-                </div>
             </div>
           </div>
-    </div>
+        </div>
+   </div>
 {% endblock %}
