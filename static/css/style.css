@@ -31,7 +31,7 @@ h3.media-gallery-heading,
 h3.contact-form-heading {
     font-family: 'Architects Daughter', cursive;
     color: #FFFFFF;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 900;
     text-align: center;
     margin-top: 2rem;
@@ -88,6 +88,10 @@ a.email-icon {
     font-size: 2.5rem;
     color: #ffa90a;
     cursor: pointer;
+}
+
+.fudog-logo {
+    margin-top: 2rem;
 }
 
 /*Styling About Page*/
@@ -301,84 +305,28 @@ a.email-icon {
     margin: 1.5rem;
 }
 
+.modal-button {
+    text-align: center;
+}
 
+.more-info.btn {
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    border: 0.3rem solid #020413;
+    font-size: 1.2rem;
+    color: #020413;
+    font-weight: bold;
+    margin-top: 1rem;
+}
 
-
-.fight-team.flip-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
+.more-info.btn:hover {
     background-color: #ffa90a;
-    height: 42rem;
-    perspective: 62.5rem;
-    border-radius: 0.5rem;
-    border: 0.2rem solid #FFFFFF;
-    margin: 2rem;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .fight-team.flip-card-front, 
-  .fight-team.flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .fight-team.flip-card-front {
-    background-color: #FFFFFF;
-    color: #020413;
-  }
-  
-  .fight-team.flip-card-back {
-    background-color: #FFFFFF;
-    color: #020413;
-    border-radius: 0.5rem;
-    border: 0.2rem solid #ffa90a;
-    transform: rotateY(180deg);
-  }
-
-  .fight-team-member-name {
-    text-align: center;
-    font-family: 'Architects Daughter', cursive;
-    color: #020413;
-    font-size: 2rem;
-    margin-top: 2rem;
-  }
-  
-  .fight-team-member-bio {
-    text-align: center;
-    font-family: 'Architects Daughter', cursive;
-    color: #AE2012;
-    font-size: 1.7rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-.fight-team-member-detail {
-    text-align: center;
-    font-family: 'Spartan', sans-serif;
-    color: #020413;
-    font-size: 1.7rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
 
 /*Styling Gallery content*/
 .image-gallery,
@@ -657,67 +605,3 @@ footer.page-footer {
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-
-
-<div class="fight-team flip-card">
-              <div class="fight-team flip-card-inner">
-                <div class="fight-team flip-card-front">
-                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-      
-                <div class="fight-team flip-card-back">
-                  <p class="fight-team-member-name">Gregor Fell</p>
-                  <div class="divider-two"></div>
-                    <p class="fight-team-member-bio">From:
-                      <span class="fight-team-member-detail">Dunfermline</span></p>
-                    <p class="fight-team-member-bio">Age:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Height:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Weight:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Reach:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Division:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Style:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Team:
-                      <span class="fight-team-member-detail">Fu Dog Martial Arts</span></p>
-                    <p class="fight-team-member-bio">Trainer:
-                      <span class="fight-team-member-detail">Iain Feenan</span></p>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="fight-team flip-card">
-              <div class="fight-team flip-card-inner">
-                <div class="fight-team flip-card-front">
-                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-                </div>
-                <div class="fight-team flip-card-back">
-                  <p class="fight-team-member-name">Gregor Fell</p>
-                  <div class="divider-two"></div>
-                    <p class="fight-team-member-bio">From:
-                      <span class="fight-team-member-detail">Dunfermline</span></p>
-                    <p class="fight-team-member-bio">Age:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Height:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Weight:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Reach:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Division:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Style:
-                      <span class="fight-team-member-detail">TBC</span></p>
-                    <p class="fight-team-member-bio">Team:
-                      <span class="fight-team-member-detail">Fu Dog Martial Arts</span></p>
-                    <p class="fight-team-member-bio">Trainer:
-                      <span class="fight-team-member-detail">Iain Feenan</span></p>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
